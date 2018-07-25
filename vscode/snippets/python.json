@@ -49,5 +49,23 @@
 			"    main(**kwargs)",
 			""
 		]
+	},
+        "Python TODO": {
+		"prefix": "pytodo",
+		"body": [
+			"# TODO [matt.c.mccallum ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR_SHORT}]: "
+		]
+	},
+	"Python NOTE": {
+		"prefix": "pynote",
+		"body": [
+			"# NOTE [matt.c.mccallum ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR_SHORT}]: "
+		]
+	},
+	"Python HACK": {
+		"prefix": "pyhack",
+		"body": [
+			"# HACK [matt.c.mccallum ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR_SHORT}]: "
+		]
 	}
 }
