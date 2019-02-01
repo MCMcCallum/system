@@ -1,0 +1,14 @@
+[user]
+	name = Matt McCallum
+	email = <ENTER EMAIL HERE>
+[merge]
+	tool = extMerge
+[mergetool "extMerge"]
+	cmd = extMerge "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	trustExitCode = false
+[diff]
+	external = extDiff
+[mergetool "p4mergetool"]
+	trustExitCode = false
+[mergetool]
+	keepBackup = false
