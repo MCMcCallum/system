@@ -1,0 +1,36 @@
+{
+	// Place your snippets for sql here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+
+	"SQL File Header": {
+		"prefix": "sqlheader",
+		"body": [
+			"--",
+			"-- Created ${CURRENT_MONTH}-${CURRENT_DATE}-${CURRENT_YEAR_SHORT} by Matt C. McCallum",
+			"--",
+			"-- ${1:Description}",
+			"--"
+		],
+		"description": "Information header for SQL files"
+	},
+	"SQL TODO": {
+		"prefix": "sqltodo",
+		"body": [
+			"-- TODO [matt.c.mccallum ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR_SHORT}]: "
+		]
+	},
+	"SQL NOTE": {
+		"prefix": "sqlnote",
+		"body": [
+			"-- NOTE [matt.c.mccallum ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR_SHORT}]: "
+		]
+	},
+	"SQL HACK": {
+		"prefix": "sqlhack",
+		"body": [
+			"-- HACK [matt.c.mccallum ${CURRENT_MONTH}.${CURRENT_DATE}.${CURRENT_YEAR_SHORT}]: "
+		]
+	}
+}
