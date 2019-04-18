@@ -1,6 +1,6 @@
 [user]
 	name = Matt McCallum
-	email = matt.c.mccallum@gmail.com
+	email = <Enter Email Here>
 [merge]
 	tool = extMerge
 [mergetool "extMerge"]
